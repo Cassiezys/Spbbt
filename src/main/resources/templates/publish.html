@@ -17,7 +17,7 @@
                 <span class="sr-only">聚宝小镇</span>
             </button>
         </div>
-        <a class="navbar-brand" href="#">聚宝小镇</a>
+        <a class="navbar-brand" href="/">聚宝小镇</a>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-left">
                 <div class="form-group">
@@ -26,6 +26,9 @@
                 <button type="submit" class="btn btn-default">搜索</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
+                <li th:if="${session.user !=null}">
+                    <a href="/publish">发布</a>
+                </li>
                 <li class="dropdown" th:if="${session.user}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" th:text="${session.user.getName()}"> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -47,19 +50,21 @@
             <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>发起</h2>
             <hr>
 
-            <form action="">
+            <form action="/publish" method="post">
                 <div class="form-group">
                     <label for="title">问题标题 {简单扼要}</label>
-                    <input type="text" class="form-control" id="title" name="title" placeholder="问题标题.....">
+                    <input type="text" class="form-control" id="title" th:value="${title}" name="title" placeholder="问题标题.....">
                 </div>
                 <div class="form-group">
-                    <label for="title">问题补充 { 按照右侧提示}：</label>
-                    <textarea name="description" id="description" class="form-control" cols="30" rows="10"></textarea>
+                    <label for="description">问题补充 { 按照右侧提示}：</label>
+                    <textarea name="description" id="description" th:text="${description}" class="form-control" cols="30" rows="10"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="title">添加标签：</label>
-                    <input type="text" class="form-control" id="tag" name="tag" placeholder="输入标签  以，隔开">
+                    <label for="tag">添加标签：</label>
+                    <input type="text" class="form-control" id="tag" th:value="${tag}" name="tag" placeholder="输入标签  以，隔开">
                 </div>
+
+                <span class="alert alert-danger" th:if="${error !=null}" th:text="${error}"></span>
 
                 <!-- Indicates a successful or positive action -->
                 <button type="submit" class="btn btn-success btn-publish">（发布）</button>
@@ -67,7 +72,7 @@
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12" >
             <h3>Announcements</h3>
-            Release announcements, end of life notifications and other bits about Elastic products that we think will be useful to everyone.br<br>
+            Release announcements, end of life notifications and other bits about Elastic products that we think will be useful to everyone.<br>
             Any questions regarding Beats, forwarders and shippers for various types of data.<br>
             Any questions related to Elasticsearch, including specific features, language clients and plugins.<br>
             Everything related to your favorite centralized logging platform, including plugins and recipes.<br>

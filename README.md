@@ -9,12 +9,16 @@
 [OkHttp Document](https://square.github.io/okhttp/)  
 [H2 Database Document](http://www.h2database.com/)  
 [mybatis-spring-boot](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)  
-[Spring Document database](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-embedded-database-support)
+[Spring Document database](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-embedded-database-support)    
+[菜鸟教程Mysql](https://www.runoob.com/mysql/mysql-tutorial.html)  
+[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)  
 
 ##工具
 [Git](https://github.com/)  
 [OAuth test](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)  
-[flyway](https://flywaydb.org/getstarted/firststeps/maven)
+[flyway](https://flywaydb.org/getstarted/firststeps/maven)  
+[lombok](https://projectlombok.org/setup/maven)  
+[springboot](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools)
 
 ##脚本
 '''sql
