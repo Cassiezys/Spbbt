@@ -4,20 +4,20 @@
 ##资料
 [GitHub 文档](https://github.com/Cassiezys/Spbbt)  
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)  
-[Bootstrap](https://v3.bootcss.com/components)  
-[GitHub OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
-[OkHttp Document](https://square.github.io/okhttp/)  
-[H2 Database Document](http://www.h2database.com/)  
-[mybatis-spring-boot](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)  
+[Bootstrap 整体框架](https://v3.bootcss.com/components)  
+[GitHub OAuth 用GitHub账号登陆](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
+[OkHttp Document ](https://square.github.io/okhttp/)  
+[H2 Database Document 轻量级数据库](http://www.h2database.com/)  
+[mybatis-spring-boot 数据库语言](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)  
 [Spring Document database](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-embedded-database-support)    
 [菜鸟教程Mysql](https://www.runoob.com/mysql/mysql-tutorial.html)  
-[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)  
+[thymeleaf vs jsp](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)  
 
 ##工具
 [Git](https://github.com/)  
 [OAuth test](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)  
-[flyway](https://flywaydb.org/getstarted/firststeps/maven)  
-[lombok](https://projectlombok.org/setup/maven)  
+[flyway 一起更新数据库](https://flywaydb.org/getstarted/firststeps/maven)  
+[lombok 可以自动加载gettersetter](https://projectlombok.org/setup/maven)  
 [springboot](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools)
 
 ##脚本
