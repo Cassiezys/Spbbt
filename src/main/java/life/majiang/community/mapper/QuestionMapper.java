@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
+/* same as dao*/
 @Mapper
 public interface QuestionMapper {
 
@@ -26,4 +27,7 @@ public interface QuestionMapper {
 
     @Select("select count(1) from question where creator=#{userId}")
     Integer countquestionById(@Param(value = "userId") int userId);
+
+    @Select("select * from question where id = #{quesid}")
+    Question getQuesById(@Param(value = "quesid") int quesid);
 }

@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
+/*发布问题
+* publish question page*/
 @Controller
 public class PublishController {
 

@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
+/*个人详情页面
+* profile page*/
 @Controller
 public class ProfileController {
 

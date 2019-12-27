@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/*for page segment achieve */
 @Service
 public class QuestionService {
 
@@ -21,7 +22,7 @@ public class QuestionService {
     @Autowired
     private UserMapper userMapper;
 /*返回分页
-*   show segment pages*/
+*   show segment pages firstPage*/
     public PaginationDTO allQuestion(Integer page, Integer size) {
         PaginationDTO paginationDTO = new PaginationDTO();
         Integer tatalquescount = questionMapper.countquestion();
@@ -54,6 +55,7 @@ public class QuestionService {
         return paginationDTO;
     }
 
+    /*show segment pages by userId*/
     public PaginationDTO findQuesById(int userId, Integer page, Integer size) {
         PaginationDTO paginationDTO = new PaginationDTO();
         Integer tatalquescount = questionMapper.countquestionById(userId);
@@ -84,5 +86,15 @@ public class QuestionService {
         }
         paginationDTO.setQuestionlist(questionDTOList);
         return paginationDTO;
+    }
+
+    /* show detailed this user's Question*/
+    public QuestionDTO getQuesById(Integer quesid) {
+        Question question = questionMapper.getQuesById(quesid);
+        User user = userMapper.findById(question.getCreator());
+        QuestionDTO questionDTO= new QuestionDTO();
+        BeanUtils.copyProperties(question,questionDTO);
+        questionDTO.setUser(user);
+        return questionDTO;
     }
 }
