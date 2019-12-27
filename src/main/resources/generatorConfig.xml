@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
+        <!--尝试用mybatis自己提供的plugin插件来实现分页-->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost/community"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!--生成java模型的   enable true根据路径生成子包，false不生成子包    绝对路径-->
+        <javaModelGenerator targetPackage="life.majiang.community.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--生成sqlmap  看xml文件喜欢放在哪里 targetPackages是自动创建的  -->
+        <sqlMapGenerator targetPackage="mapper"  targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!--看你是喜欢annotation/xml                 希望生成到哪里-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="life.majiang.community.mapper"  targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!--如何通过generator配置上数据库的表（映射）
+        useActualColumnNames:ColumnNames false时将数据库中的_转化驼峰标识 默认为false
+         generatedKey 插入数据库的时候自动生成key 并且自动返回
+         columnOverride 固定的列改名-->
+        <table tableName="user" domainObjectName="User" ></table>
+        <table tableName="question" domainObjectName="Question" ></table>
+
+    </context>
+</generatorConfiguration>
