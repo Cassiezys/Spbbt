@@ -5,6 +5,7 @@ import life.majiang.community.dto.QuestionDTO;
 import life.majiang.community.exception.CustomizeErrorCodeImp;
 import life.majiang.community.exception.CustomizeException;
 import life.majiang.community.exception.InCustomizeErrorCode;
+import life.majiang.community.mapper.QuestionExtMapper;
 import life.majiang.community.mapper.QuestionMapper;
 import life.majiang.community.mapper.UserMapper;
 import life.majiang.community.model.Question;
@@ -26,6 +27,9 @@ public class QuestionService {
     private QuestionMapper questionMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
+
 /*返回分页
 *   show segment pages firstPage*/
     public PaginationDTO allQuestion(Integer page, Integer size) {
@@ -137,5 +141,14 @@ public class QuestionService {
                 throw new CustomizeException(CustomizeErrorCodeImp.QUESTION_MOT_FOUND);
             }
         }
+    }
+
+    /*增加问题的阅读数*/
+    public void incView(Integer quesid) {
+        /*防止多线程并发导致阅读数错误*/
+        Question question = new Question();
+        question.setId(quesid);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
     }
 }
