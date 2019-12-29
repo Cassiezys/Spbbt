@@ -4,7 +4,6 @@ import life.majiang.community.dto.PaginationDTO;
 import life.majiang.community.dto.QuestionDTO;
 import life.majiang.community.exception.CustomizeErrorCodeImp;
 import life.majiang.community.exception.CustomizeException;
-import life.majiang.community.exception.InCustomizeErrorCode;
 import life.majiang.community.mapper.QuestionExtMapper;
 import life.majiang.community.mapper.QuestionMapper;
 import life.majiang.community.mapper.UserMapper;
@@ -64,7 +63,7 @@ public class QuestionService {
     }
 
     /*show segment pages by userId*/
-    public PaginationDTO findQuesById(int userId, Integer page, Integer size) {
+    public PaginationDTO findQuesById(Long userId, Integer page, Integer size) {
         PaginationDTO paginationDTO = new PaginationDTO();
         QuestionExample questionExample = new QuestionExample();
         questionExample.createCriteria()
@@ -104,10 +103,10 @@ public class QuestionService {
     }
 
     /* show detailed this user's Question*/
-    public QuestionDTO getQuesById(Integer quesid) {
+    public QuestionDTO getQuesById(Long quesid) {
         Question question = questionMapper.selectByPrimaryKey(quesid);
         if(question == null){
-            throw new CustomizeException(CustomizeErrorCodeImp.QUESTION_MOT_FOUND);
+            throw new CustomizeException(CustomizeErrorCodeImp.QUESTION_NOT_FOUND);
         }
         User user = userMapper.selectByPrimaryKey(question.getCreator());
         QuestionDTO questionDTO= new QuestionDTO();
@@ -122,6 +121,9 @@ public class QuestionService {
             //new question
             question.setGmtCreate(System.currentTimeMillis());
             question.setGmtModified(question.getGmtCreate());
+            question.setViewCount(0);
+            question.setLikeCount(0);
+            question.setCommentCount(0);
             questionMapper.insert(question);
         }else{
             //modify my question
@@ -138,13 +140,13 @@ public class QuestionService {
                     .andIdEqualTo(question.getId());
             int updated = questionMapper.updateByExampleSelective(updateQues, questionExample);
             if(updated !=1){
-                throw new CustomizeException(CustomizeErrorCodeImp.QUESTION_MOT_FOUND);
+                throw new CustomizeException(CustomizeErrorCodeImp.QUESTION_NOT_FOUND);
             }
         }
     }
 
     /*增加问题的阅读数*/
-    public void incView(Integer quesid) {
+    public void incView(Long quesid) {
         /*防止多线程并发导致阅读数错误*/
         Question question = new Question();
         question.setId(quesid);

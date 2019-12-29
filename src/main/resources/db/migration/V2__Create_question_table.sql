@@ -1,5 +1,5 @@
 CREATE TABLE 'question' (
-`id`  int NULL AUTO_INCREMENT ,
+`id`  BIGINT NULL AUTO_INCREMENT ,
 `title`  varchar(50) NULL ,
 `description`  text NULL ,
 `gmt_create`  bigint NULL ,
