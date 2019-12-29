@@ -43,3 +43,23 @@ body
     float: right;
     margin-bottom: 15px;
 }
+.sp-comment{
+    margin-top: 0;
+}
+.comment-area{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.comment-func{
+    color: #999;
+    margin-top: 5px;
+}
+.comment-func .icon{
+    margin-right: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.comment-func .icon:hover{
+    color: #499ef3;
+}
