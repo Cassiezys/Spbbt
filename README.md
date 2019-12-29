@@ -15,7 +15,9 @@
 [thymeleaf vs jsp](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)   
 [Spring MVC Filter](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-cors-processing)     
 [Mybatis generator(MBG) CRUD](http://mybatis.org/generator/)  
-[pagehelper en->zh](https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md)
+[pagehelper en->zh](https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md)  
+[JQUERY API](https://api.jquery.com/)
+
 
 ##工具
 [Git](https://github.com/)  
