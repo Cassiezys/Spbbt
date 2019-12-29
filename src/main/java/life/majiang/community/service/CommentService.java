@@ -10,6 +10,7 @@ import life.majiang.community.model.Comment;
 import life.majiang.community.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class CommentService {
@@ -21,6 +22,7 @@ public class CommentService {
     @Autowired
     private QuestionExtMapper questionExtMapper;
 
+    @Transactional
     public void insert(Comment comment) {
         if(comment.getParentId()==null||comment.getParentId()==0){
             throw new CustomizeException(CustomizeErrorCodeImp.TARGET_PARAM_NOT_FOUND);
@@ -41,6 +43,7 @@ public class CommentService {
             if (question == null){
                 throw  new CustomizeException(CustomizeErrorCodeImp.QUESTION_NOT_FOUND);
             }
+            /*添加评论和增加评论数  -- 事务 */
             commentMapper.insert(comment);
             question.setCommentCount(1);
             questionExtMapper.incCommentCount(question);
