@@ -102,7 +102,7 @@ public class QuestionService {
         return paginationDTO;
     }
 
-    /* show detailed this user's Question*/
+    /* details about this Question*/
     public QuestionDTO getQuesById(Long quesid) {
         Question question = questionMapper.selectByPrimaryKey(quesid);
         if(question == null){

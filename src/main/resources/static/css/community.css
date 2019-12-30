@@ -6,6 +6,7 @@ body
 {
     margin: 30px;
     background-color: white;
+    padding-top: 10px;
 }
 .btn-publish
 {
@@ -50,6 +51,14 @@ body
     margin-bottom: 15px;
     border-bottom: 1px solid #eee;
     padding-bottom: 5px;
+}
+.comment-area .comment-body
+{
+    padding: 0px 4px 4px 4px;
+}
+.comment-body .comment-head{
+    font-size: 14px;
+    margin-bottom: 8px;
 }
 .comment-func{
     color: #999;

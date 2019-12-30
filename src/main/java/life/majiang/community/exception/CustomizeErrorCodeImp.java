@@ -8,7 +8,8 @@ public enum CustomizeErrorCodeImp implements InCustomizeErrorCode {
     NO_LOGIN(2003,"未登陆，请先登录  "),
     SYS_ERROR(2004,"程序员小哥开小差了,please try again later"),
     TYPE_PARAM_WRONG(2005,"评论类型错误或者不存在"),
-    COMMENT_NOT_FOUND(2006,"该评论已消失在银河......")
+    COMMENT_NOT_FOUND(2006,"该评论已消失在银河......"),
+    CONTENT_IS_EMPTY(2007,"评论要表达出来才更有意义噢~")
     ;
 
     private Integer code;

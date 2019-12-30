@@ -11,8 +11,9 @@ function post(){
             "type":1
         }),
         success:function (result) {
-            if(result.code == 200){
+            if(result.code == 222){
                 //成功
+                window.location.reload();
                 $("#comment_section").hide();
             }else{
                 if(result.code == 2003){
@@ -24,6 +25,8 @@ function post(){
                         //来记录关不关闭窗口
                         window.localStorage.setItem("closabe",true);
                     }
+                }else{
+                    alert(result.code+result.message);
                 }
             }
         },

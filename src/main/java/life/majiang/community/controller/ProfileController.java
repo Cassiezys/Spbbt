@@ -23,6 +23,7 @@ public class ProfileController {
     @Autowired
     private QuestionService questionService;
 
+    /*个人相关*/
     @GetMapping("/profile/{action}")
     public String profile(@PathVariable(name="action") String action,
                           Model model,

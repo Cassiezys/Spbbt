@@ -23,6 +23,7 @@ public class QuestionController {
     @Autowired
     private CommentService commentService;
 
+    /*某问题详情 question detail*/
     @GetMapping("/question/{quesid}")
     public String question(@PathVariable(name="quesid") Long quesid,
                            Model model){

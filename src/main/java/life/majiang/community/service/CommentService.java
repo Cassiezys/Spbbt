@@ -64,6 +64,7 @@ public class CommentService {
         CommentExample commentExample = new CommentExample();
         commentExample.createCriteria()
                 .andParentIdEqualTo(quesid).andTypeEqualTo(CommentTypeEnum.QUESTION.getType());
+        commentExample.setOrderByClause("gmt_create desc");
         //确保是问题的评论
         List<Comment> commentList = commentMapper.selectByExample(commentExample);
         /*如果一个问题下的很多个评论都是同一个用户，那么每次查都是重复工作，所以
