@@ -4,10 +4,7 @@ import life.majiang.community.dto.CommentDTO;
 import life.majiang.community.enums.CommentTypeEnum;
 import life.majiang.community.exception.CustomizeErrorCodeImp;
 import life.majiang.community.exception.CustomizeException;
-import life.majiang.community.mapper.CommentMapper;
-import life.majiang.community.mapper.QuestionExtMapper;
-import life.majiang.community.mapper.QuestionMapper;
-import life.majiang.community.mapper.UserMapper;
+import life.majiang.community.mapper.*;
 import life.majiang.community.model.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +28,8 @@ public class CommentService {
     private QuestionExtMapper questionExtMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private CommentExtMapper commentExtMapper;
 
     @Transactional
     public void insert(Comment comment) {
@@ -47,6 +46,11 @@ public class CommentService {
                 throw new CustomizeException(CustomizeErrorCodeImp.COMMENT_NOT_FOUND);
             }
             commentMapper.insert(comment);
+            //增加回复评论的评论数，他的id要确保不能变所以他的id 设置为parentId或者一开始在数据库建立的时候就设置一个parentCommentId
+            Comment parentComment = new Comment();
+            parentComment.setId(comment.getParentId());
+            parentComment.setCommentCount(1);
+            commentExtMapper.incCommentCount(parentComment);
         }else{
             //回复问题
             Question question = questionMapper.selectByPrimaryKey(comment.getParentId());
@@ -60,10 +64,10 @@ public class CommentService {
         }
     }
     /*返回该问题的评论*/
-    public List<CommentDTO> getCommentById(Long quesid) {
+    public List<CommentDTO> findCommentListByIdTaget(Long quesid, CommentTypeEnum commentTypeEnum) {
         CommentExample commentExample = new CommentExample();
         commentExample.createCriteria()
-                .andParentIdEqualTo(quesid).andTypeEqualTo(CommentTypeEnum.QUESTION.getType());
+                .andParentIdEqualTo(quesid).andTypeEqualTo(commentTypeEnum.getType());
         commentExample.setOrderByClause("gmt_create desc");
         //确保是问题的评论
         List<Comment> commentList = commentMapper.selectByExample(commentExample);

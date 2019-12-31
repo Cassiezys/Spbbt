@@ -6,6 +6,7 @@ CREATE TABLE `comment` (
 `gmt_create`  bigint NULL ,
 `gmt_modified`  bigint NULL ,
 `like_count`  bigint NULL DEFAULT 0 ,
+`comment_count`  int NULL DEFAULT 0 ,
 PRIMARY KEY (`id`)
 )
 ;
