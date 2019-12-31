@@ -154,7 +154,15 @@
             </div>
             <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h5>相关问题</h5>
+                <h4>联系作者</h4>
+                <img class="img-thumbnail img-author" src="/img/WechatSQ.jpg" >
+            </div>
+            <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4>相关问题</h4>
+                <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 question-rela" >
+                    <li th:each="relaques : ${relateQuestion}"><a th:href="@{'/question/'+${relaques.id}}" th:text="${relaques.title}"></a></li>
+                </ul>
             </div>
         </div>
 

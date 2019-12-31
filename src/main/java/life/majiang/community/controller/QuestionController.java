@@ -28,13 +28,15 @@ public class QuestionController {
     public String question(@PathVariable(name="quesid") Long quesid,
                            Model model){
         QuestionDTO questionDTO = questionService.getQuesById(quesid);
-
+        //获取所有与该问题的tag相关的问题
+        List<QuestionDTO> relateQuestion = questionService.selectRelated(questionDTO);
         //获取所有评论（各评论中也有user的概念）
         List<CommentDTO> commentList = commentService.findCommentListByIdTaget(quesid, CommentTypeEnum.QUESTION);
         //获取成功之后累加阅读数
         questionService.incView(quesid);
         model.addAttribute("question",questionDTO);
         model.addAttribute("commentList",commentList);
+        model.addAttribute("relateQuestion",relateQuestion);
         return "question";
     }
 

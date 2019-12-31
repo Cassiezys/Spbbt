@@ -95,3 +95,19 @@ body
 .question-tag{
     margin-right: 5px;
 }
+.question-rela {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 0;
+    line-height: 24px;
+
+}
+.question-rela li a{
+    text-decoration: none;
+}
+.question-rela li a:hover{
+    color: #0087fc;
+}
+.img-author{
+    width: 100%;
+}
