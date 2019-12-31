@@ -1,10 +1,12 @@
 package life.majiang.community.controller;
 
+import life.majiang.community.cache.TagCache;
 import life.majiang.community.dto.QuestionDTO;
 import life.majiang.community.mapper.QuestionMapper;
 import life.majiang.community.model.Question;
 import life.majiang.community.model.User;
 import life.majiang.community.service.QuestionService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,11 +34,14 @@ public class PublishController {
         model.addAttribute("description",question.getDescription());
         model.addAttribute("tag",question.getTag());
         model.addAttribute("id",question.getId());
+        model.addAttribute("tags", TagCache.get());
         return "publish";
     }
 
+    /*第一次打开*/
     @GetMapping("/publish")
-    public String publish(){
+    public String publish(Model model){
+        model.addAttribute("tags", TagCache.get());
         return "publish";
     }
 
@@ -51,12 +56,21 @@ public class PublishController {
         model.addAttribute("title",title);
         model.addAttribute("description",description);
         model.addAttribute("tag",tag);
+        model.addAttribute("tags", TagCache.get());
 
-        if(title ==null){
-            model.addAttribute("error","不能为空");
+        if(title ==null||"".equals(title)){
+            model.addAttribute("error","有标题能更快解决噢~");
             return "publish";
         }
 
+        if(description == null ||"".equals(description)){
+            model.addAttribute("error","有内容更有看点");
+            return "publish";
+        }
+        if(tag == null ||"".equals(tag)){
+            model.addAttribute("error","有标签，才能为自己代言");
+            return "publish";
+        }
         User user = null;
         user = (User) request.getSession().getAttribute("user");
       //  System.out.println(user.getName());
@@ -65,6 +79,11 @@ public class PublishController {
             return "publish";
         }
 
+        String fileInvalid = TagCache.fileInvalid(tag);
+        if(StringUtils.isNotBlank(fileInvalid)){
+            model.addAttribute("error",fileInvalid+"无法为问题代言");
+            return "publish";
+        }
         Question question = new Question();
         question.setTitle(title);
         question.setDescription(description);

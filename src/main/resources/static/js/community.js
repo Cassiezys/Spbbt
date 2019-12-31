@@ -45,7 +45,6 @@ function postsecond(e) {
     addComment(commentId, 2, content);
 }
 
-
 /* 二级评论-- 展开*/
 function secondComment(e) {
     var id = e.getAttribute("data-id");
@@ -59,11 +58,11 @@ function secondComment(e) {
         $.getJSON('/comment/' + id, function (data) {
             console.log(data);
             $.each(data.data.reverse(), function (index, result) {
-                commentfunc.prepend("<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 comment-area' >"+
-                  "  <div class='media'><div class='media-left'><img class='media-object img-rounded' src="+result.user.avatarUrl+"></div>"+
-                  "  <div class='media-body comment-body'><h4 class='media-heading comment-head'>"+
-                  "  <span>"+result.user.name+"</span><span>"+moment(result.gmtCreate).format('YYYY-MM-DD')+"</span></h4>"+
-                "<div>"+result.content+"</div></div></div></div>");
+                commentfunc.prepend("<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 comment-area' >" +
+                    "  <div class='media'><div class='media-left'><img class='media-object img-rounded' src=" + result.user.avatarUrl + "></div>" +
+                    "  <div class='media-body comment-body'><h4 class='media-heading comment-head'>" +
+                    "  <span>" + result.user.name + "</span><span>" + moment(result.gmtCreate).format('YYYY-MM-DD') + "</span></h4>" +
+                    "<div>" + result.content + "</div></div></div></div>");
             });
             commentfunc.addClass("in");
             e.classList.add("active");
@@ -71,4 +70,37 @@ function secondComment(e) {
 
     }
     console.log(id);
+}
+
+/*展示:焦点事件
+$(document).ready(function(){
+    $("#tag").focus(function(){
+        $("#label-tag").show();
+    });
+    $("#tag").blur(function(){
+    });
+    $("#label-tag").focus(function(){
+        $("#label-tag").show();
+    });
+    $("#label-tag").blur(function () {
+        $("#label-tag").hide();
+    })
+});*/
+
+function showSelectTag() {
+    $("#select-tag").show();
+}
+
+function selectTag(e) {
+    var value = e.getAttribute("data-tag");
+    var pre = $('#tag').val();
+//pre.split(",").indexOf(value)
+    if (pre.indexOf(value) == -1) {
+        //说明value不存在
+        if (pre) {
+            $('#tag').val(pre + ',' + value);
+        } else {
+            $('#tag').val(value);
+        }
+    }
 }

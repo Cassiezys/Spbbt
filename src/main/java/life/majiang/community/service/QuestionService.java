@@ -165,6 +165,7 @@ public class QuestionService {
             return new ArrayList<>();
         }
         String regexpTag = StringUtils.replace(questionDTO.getTag(), ",", "|");
+        System.out.println(regexpTag);
         /*拼接字符串  先split
         *  String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));*/
         Question question = new Question();

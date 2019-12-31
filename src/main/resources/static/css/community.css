@@ -111,3 +111,8 @@ body
 .img-author{
     width: 100%;
 }
+.label-tag{
+    display: none;
+    list-style: none;
+    padding-left: 5px;
+}
