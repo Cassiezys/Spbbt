@@ -9,8 +9,8 @@ import java.util.List;
  * 分页所承载的元素
  * page segment shown*/
 @Data
-public class PaginationDTO {
-    private List<QuestionDTO> questionlist;
+public class PaginationDTO<T> {
+    private List<T> dataList;
     private boolean showPrevious;
     private boolean showFirstPage;
     private boolean showNext;

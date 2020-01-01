@@ -36,7 +36,7 @@ public class QuestionService {
 /*返回分页
 *   show segment pages firstPage*/
     public PaginationDTO allQuestion(Integer page, Integer size) {
-        PaginationDTO paginationDTO = new PaginationDTO();
+        PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
         Integer tatalquescount = (int) questionMapper.countByExample(new QuestionExample());
         if (tatalquescount % size == 0) {
             paginationDTO.setTotalPage(tatalquescount / size);
@@ -64,13 +64,13 @@ public class QuestionService {
             questionDTO.setUser(user);
             questionDTOList.add(questionDTO);
         }
-        paginationDTO.setQuestionlist(questionDTOList);
+        paginationDTO.setDataList(questionDTOList);
         return paginationDTO;
     }
 
     /*show segment pages by userId*/
-    public PaginationDTO findQuesById(Long userId, Integer page, Integer size) {
-        PaginationDTO paginationDTO = new PaginationDTO();
+    public PaginationDTO findQuesByUserId(Long userId, Integer page, Integer size) {
+        PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
         QuestionExample questionExample = new QuestionExample();
         questionExample.createCriteria()
                 .andCreatorEqualTo(userId);
@@ -104,7 +104,7 @@ public class QuestionService {
             questionDTO.setUser(user);
             questionDTOList.add(questionDTO);
         }
-        paginationDTO.setQuestionlist(questionDTOList);
+        paginationDTO.setDataList(questionDTOList);
         return paginationDTO;
     }
 

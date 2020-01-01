@@ -93,7 +93,9 @@ body
     left: 18px;
 }
 .question-tag{
-    margin-right: 5px;
+    white-space: normal;
+    margin: 5px 5px;
+    display: inline-block;
 }
 .question-rela {
     list-style: none;
