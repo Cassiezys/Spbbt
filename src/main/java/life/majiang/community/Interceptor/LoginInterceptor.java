@@ -3,6 +3,7 @@ package life.majiang.community.Interceptor;
 import life.majiang.community.mapper.UserMapper;
 import life.majiang.community.model.User;
 import life.majiang.community.model.UserExample;
+import life.majiang.community.service.NotificationSevice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -13,11 +14,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
+/*执行前、中、后检查*/
 @Service
 public class LoginInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private NotificationSevice notificationSevice;
 
     /*在执行之前检查*/
     @Override
@@ -34,6 +38,8 @@ public class LoginInterceptor implements HandlerInterceptor {
                     List<User> users = userMapper.selectByExample(userExample);
                     if(users.size() != 0){
                         request.getSession().setAttribute("user",users.get(0));
+                        Long unreadCount = notificationSevice.findunreadCount(users.get(0).getId());
+                        request.getSession().setAttribute("unreadCount",unreadCount);
                     }
                     break;
                 }

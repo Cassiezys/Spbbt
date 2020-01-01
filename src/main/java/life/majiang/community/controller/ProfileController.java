@@ -48,10 +48,8 @@ public class ProfileController {
         }else if("replies".equals(action)){
             //查询回复
             PaginationDTO pagination = notificationSevice.findRpliesByUserId(user.getId(), page, size);
-            Long unreadCount = notificationSevice.findunreadCount(user.getId());
             model.addAttribute("section","replies");
             model.addAttribute("sectionName","我的回复");
-            model.addAttribute("unreadCount",unreadCount);
             model.addAttribute("pagination",pagination);
         }
         return "profile";

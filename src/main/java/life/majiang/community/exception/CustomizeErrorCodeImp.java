@@ -10,8 +10,8 @@ public enum CustomizeErrorCodeImp implements InCustomizeErrorCode {
     TYPE_PARAM_WRONG(2005,"评论类型错误或者不存在"),
     COMMENT_NOT_FOUND(2006,"该评论已消失在银河......"),
     CONTENT_IS_EMPTY(2007,"评论要表达出来才更有意义噢~"),
-    READ_NOTE_FAIL(2008,"非法操作"),
-    NOTIFICATION_NOT_FOUND(2009,"该通知消失在银河.......  "),
+    READ_NOTE_FAIL(2008,"阅读自己的信息才是正确的做法噢~"),
+    NOTIFICATION_NOT_FOUND(2009,"消息莫非不翼而飞？.......  "),
     ;
 
     private Integer code;

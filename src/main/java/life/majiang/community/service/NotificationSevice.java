@@ -49,6 +49,7 @@ public class NotificationSevice {
         NotificationExample example = new NotificationExample();
         example.createCriteria()
                 .andReceiverEqualTo(userId);
+        example.setOrderByClause("gmt_create desc");
         List<Notification> notifications = notificationMapper.selectByExampleWithRowbounds(example,new RowBounds(offset,size));
 
         if(notifications.size()==0){
@@ -78,11 +79,11 @@ public class NotificationSevice {
 //    标记已读
     public NotificationDTO doRead(Long id, User user) {
         Notification notification = notificationMapper.selectByPrimaryKey(id);
-        if(!notification.getReceiver().equals(user.getId())){
-            throw new CustomizeException(CustomizeErrorCodeImp.READ_NOTE_FAIL);
-        }
         if(notification == null){
             throw new CustomizeException(CustomizeErrorCodeImp.NOTIFICATION_NOT_FOUND);
+        }
+        if(!notification.getReceiver().equals(user.getId())){
+            throw new CustomizeException(CustomizeErrorCodeImp.READ_NOTE_FAIL);
         }
         //标记已读
         notification.setStatus(NotificationStatusEnum.READ.getStatus());
