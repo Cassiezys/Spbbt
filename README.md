@@ -37,4 +37,8 @@
 ```bash
 mvn flyway:migrate
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
+mvn clean install -DskipTests
+安装
+mvn install:install-file -Dfile=E:\Tools\pacc\bags\aliyun-java-vod-upload-1.3.1.jar -DgroupId=com.aliyun -DartifactId=aliyun-java-vod-upload -Dversion=1.3.1 -Dpackaging=jar
+
 ```

@@ -2,6 +2,7 @@ package life.majiang.community.service;
 
 import life.majiang.community.dto.PaginationDTO;
 import life.majiang.community.dto.QuestionDTO;
+import life.majiang.community.dto.QuestionQueryDTO;
 import life.majiang.community.exception.CustomizeErrorCodeImp;
 import life.majiang.community.exception.CustomizeException;
 import life.majiang.community.mapper.QuestionExtMapper;
@@ -35,9 +36,22 @@ public class QuestionService {
 
 /*返回分页
 *   show segment pages firstPage*/
-    public PaginationDTO allQuestion(Integer page, Integer size) {
+    public PaginationDTO allQuestion(Integer page, Integer size,String search) {
+
+        //如果是搜索的话
+        if(!StringUtils.isBlank(search)){
+            search = StringUtils.replace(search, " ", "|");
+            System.out.println("+++"+search);
+        }else{
+            search=null;
+        }
+        System.out.println("我是search"+search);
+        QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
+        questionQueryDTO.setSearch(search);
+        Integer tatalquescount = (int) questionExtMapper.countBySearch(questionQueryDTO);
+
         PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
-        Integer tatalquescount = (int) questionMapper.countByExample(new QuestionExample());
+
         if (tatalquescount % size == 0) {
             paginationDTO.setTotalPage(tatalquescount / size);
         } else {
@@ -52,9 +66,9 @@ public class QuestionService {
         paginationDTO.setPagination(tatalquescount, page,size);
         // 5*9(page-1)
         Integer offset = size *(page-1);
-        QuestionExample questionExample = new QuestionExample();
-        questionExample.setOrderByClause("gmt_create desc");
-        List<Question> questions = questionMapper.selectByExampleWithRowbounds(questionExample,new RowBounds(offset,size));
+        questionQueryDTO.setPage(offset);
+        questionQueryDTO.setSize(size);
+        List<Question> questions = questionExtMapper.selectBySearch(questionQueryDTO);
         List<QuestionDTO> questionDTOList = new ArrayList<>();
 
         for(Question question:questions){
@@ -160,12 +174,13 @@ public class QuestionService {
         questionExtMapper.incView(question);
     }
 
+    /*筛选出tag相同的问题*/
     public List<QuestionDTO> selectRelated(QuestionDTO questionDTO) {
         if(StringUtils.isBlank(questionDTO.getTag())){
             return new ArrayList<>();
         }
         String regexpTag = StringUtils.replace(questionDTO.getTag(), ",", "|");
-        System.out.println(regexpTag);
+      //  System.out.println(regexpTag);
         /*拼接字符串  先split
         *  String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));*/
         Question question = new Question();

@@ -46,25 +46,25 @@
             <nav aria-label="Page navigation">
                 <ul class="pagination">
                     <li th:if="${pagination.showFirstPage}">
-                        <a href="/?page=1" aria-label="Previous">
+                        <a href="/?page=1,search=${session.search}" aria-label="Previous">
                             <span aria-hidden="true">&lt;&lt;</span>
                         </a>
                     </li>
                     <li th:if="${pagination.showPrevious}">
-                        <a th:href="@{/(page=${pagination.page - 1})}" aria-label="Previous">
+                        <a th:href="@{/(page=${pagination.page - 1},search=${session.search})}" aria-label="Previous">
                             <span aria-hidden="true">&lt;</span>
                         </a>
                     </li>
                     <li th:each="page : ${pagination.pages}" th:class="${pagination.page == page}? 'active' : ''"><a
-                            th:href="@{/(page=${page})}" th:text="${page}" ></a></li>
+                            th:href="@{/(page=${page},search=${session.search})}" th:text="${page}" ></a></li>
 
                     <li th:if="${pagination.showNext}">
-                        <a th:href="@{/(page=${pagination.page + 1})}" aria-label="Previous">
+                        <a th:href="@{/(page=${pagination.page + 1},search=${session.search})}" aria-label="Previous">
                             <span aria-hidden="true">&gt</span>
                         </a>
                     </li>
                     <li th:if="${pagination.showEndPage}">
-                        <a th:href="@{/(page=${pagination.totalPage})}" aria-label="Previous">
+                        <a th:href="@{/(page=${pagination.totalPage},search=${session.search})}" aria-label="Previous">
                             <span aria-hidden="true">&gt;&gt;</span>
                         </a>
                     </li>
@@ -78,5 +78,6 @@
 
     </div>
 </div>
+<div th:insert="~{head :: foot}"></div>
 </body>
 </html>
