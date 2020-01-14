@@ -7,6 +7,7 @@ import life.majiang.community.mapper.UserMapper;
 import life.majiang.community.model.User;
 import life.majiang.community.provider.GithubProvider;
 import life.majiang.community.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.aop.scope.ScopedObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -24,6 +25,7 @@ import java.util.UUID;
 * Authorized Controller
 * 获取用户权限之后*/
 @Controller
+@Slf4j
 public class AuthorizeController {
 
     @Autowired
@@ -40,7 +42,8 @@ public class AuthorizeController {
     @Autowired
     private UserService userService;
 
-    /*验证+登陆*/
+    /*验证+登陆
+    * @RequestParam 接收参数*/
     @GetMapping("/callback")
     public String callback(@RequestParam(name="code") String code,
                            @RequestParam(name="state") String state,
@@ -69,6 +72,7 @@ public class AuthorizeController {
             response.addCookie(new Cookie("token",token));
             return "redirect:/";
         }else{
+            log.error("callback get github error,{}",githubUser);
             //fail to login try again
             return "redirect:/";
         }

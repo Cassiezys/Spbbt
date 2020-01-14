@@ -1,5 +1,29 @@
 ##写SpringBoot
 
+##部署
+##依赖
+- Git
+- JDK（编译）
+- Maven（构建项目）
+- Mysql 
+
+##步骤
+学Linux
+- yum update 更新数据源  y
+- yum install git （安装git）y
+- 去git 复制https地址   创文件夹  mkdir App
+- cd App/  进入这个目录
+- git clone (https地址)
+- ls 获取当前目录
+- mvn compile (如果没有mvn要先安装maven yum install maven ; java -version 看java版本 mvn -v看版本)
+- pwd 看当前路径
+- mvn clean compile package
+- mvn compile package
+修改服务器端
+- cp 复制一个文件
+     cp src/main/resources/application.properties  src/main/resources/application-production.properties
+- vim src/main/resources/application-production.properties 编辑文件
+   a 编辑文件 esc  :x 保存修改并退出
 
 ##资料
 [GitHub 文档](https://github.com/Cassiezys/Spbbt)  

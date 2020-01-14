@@ -18,8 +18,7 @@ public class AliyunProvider {
     private static String accessKeyId;
     @Value("${aliyun.oss.access-secret}")//密码
     private static String accessKeySecret;
-    @Value("${aliyun.oss.bucket}")
-    private String bucketName;
+
 
 
     @Value("${aliyun.oss.access-secret}")//密码
