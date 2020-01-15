@@ -10269,3 +10269,306 @@ java.lang.IllegalArgumentException: Invalid character found in the request targe
 2020-01-07 08:23:10.131  WARN 3992 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h53m9s81ms63µs627ns).
 2020-01-07 13:49:58.508  WARN 3992 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s689ms608µs613ns).
 2020-01-07 13:57:23.002  WARN 3992 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s486ms460µs877ns).
+2020-01-14 09:43:27.434  WARN 16980 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/MavenHome/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/MavenHome/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-01-14 09:43:27.681  INFO 16980 --- [main] l.m.c.CommunityApplicationTests          : Starting CommunityApplicationTests on DESKTOP-K4AQCMF with PID 16980 (started by Lenovo in D:\IdeaProjects\community)
+2020-01-14 09:43:27.717  INFO 16980 --- [main] l.m.c.CommunityApplicationTests          : No active profile set, falling back to default profiles: default
+2020-01-14 09:43:31.971  INFO 16980 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-14 09:43:32.909  INFO 16980 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-14 09:43:33.216  INFO 16980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-14 09:43:33.843  INFO 16980 --- [main] l.m.c.CommunityApplicationTests          : Started CommunityApplicationTests in 7.735 seconds (JVM running for 11.347)
+2020-01-14 09:43:34.439  INFO 16980 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 10:44:43.885  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 6140 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 10:44:43.940  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 10:44:44.104  INFO 6140 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 10:44:44.104  INFO 6140 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 10:44:44.104  INFO 6140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 10:44:44.105  INFO 6140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 10:44:47.866  INFO 6140 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 10:44:47.892  INFO 6140 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 10:44:47.893  INFO 6140 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 10:44:48.052  INFO 6140 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 10:44:48.052  INFO 6140 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3947 ms
+2020-01-15 10:44:48.162  INFO 6140 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 10:44:48.531  INFO 6140 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 10:44:48.537  INFO 6140 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 10:44:49.222  INFO 6140 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 10:44:49.484  INFO 6140 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 10:44:49.591  INFO 6140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 10:44:49.883  INFO 6140 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 10:44:49.995  INFO 6140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 10:44:50.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:44:50.028+0800
+2020-01-15 10:44:50.058  INFO 6140 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 10:44:50.061  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 8.284 seconds (JVM running for 10.918)
+2020-01-15 10:44:55.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:44:55.030+0800
+2020-01-15 10:45:00.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:00.028+0800
+2020-01-15 10:45:05.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:05.028+0800
+2020-01-15 10:45:10.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:10.029+0800
+2020-01-15 10:45:15.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:15.028+0800
+2020-01-15 10:45:20.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:20.029+0800
+2020-01-15 10:45:25.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:25.029+0800
+2020-01-15 10:45:30.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:30.030+0800
+2020-01-15 10:45:35.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:35.029+0800
+2020-01-15 10:45:40.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:40.028+0800
+2020-01-15 10:45:45.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:45.028+0800
+2020-01-15 10:45:50.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:50.030+0800
+2020-01-15 10:45:55.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:45:55.028+0800
+2020-01-15 10:46:00.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:00.028+0800
+2020-01-15 10:46:05.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:05.029+0800
+2020-01-15 10:46:10.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:10.028+0800
+2020-01-15 10:46:15.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:15.030+0800
+2020-01-15 10:46:20.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:20.028+0800
+2020-01-15 10:46:25.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:25.028+0800
+2020-01-15 10:46:30.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:30.029+0800
+2020-01-15 10:46:35.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:35.028+0800
+2020-01-15 10:46:40.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:40.030+0800
+2020-01-15 10:46:45.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:45.029+0800
+2020-01-15 10:46:50.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:50.028+0800
+2020-01-15 10:46:55.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:46:55.030+0800
+2020-01-15 10:47:00.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:00.030+0800
+2020-01-15 10:47:05.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:05.028+0800
+2020-01-15 10:47:10.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:10.029+0800
+2020-01-15 10:47:15.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:15.028+0800
+2020-01-15 10:47:20.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:20.028+0800
+2020-01-15 10:47:25.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:25.029+0800
+2020-01-15 10:47:30.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:30.028+0800
+2020-01-15 10:47:35.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:35.030+0800
+2020-01-15 10:47:40.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:40.028+0800
+2020-01-15 10:47:45.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:45.028+0800
+2020-01-15 10:47:50.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:50.029+0800
+2020-01-15 10:47:55.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:47:55.028+0800
+2020-01-15 10:48:00.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:00.028+0800
+2020-01-15 10:48:05.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:05.030+0800
+2020-01-15 10:48:10.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:10.028+0800
+2020-01-15 10:48:15.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:15.029+0800
+2020-01-15 10:48:20.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:20.028+0800
+2020-01-15 10:48:25.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:25.029+0800
+2020-01-15 10:48:30.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:30.030+0800
+2020-01-15 10:48:35.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:35.028+0800
+2020-01-15 10:48:40.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:40.028+0800
+2020-01-15 10:48:45.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:45.030+0800
+2020-01-15 10:48:50.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:50.029+0800
+2020-01-15 10:48:55.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:48:55.028+0800
+2020-01-15 10:49:00.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:00.029+0800
+2020-01-15 10:49:05.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:05.029+0800
+2020-01-15 10:49:10.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:10.030+0800
+2020-01-15 10:49:15.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:15.029+0800
+2020-01-15 10:49:20.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:20.029+0800
+2020-01-15 10:49:25.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:25.030+0800
+2020-01-15 10:49:30.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:30.029+0800
+2020-01-15 10:49:35.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:35.030+0800
+2020-01-15 10:49:40.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:40.030+0800
+2020-01-15 10:49:45.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:45.028+0800
+2020-01-15 10:49:50.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:50.030+0800
+2020-01-15 10:49:55.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:49:55.030+0800
+2020-01-15 10:50:00.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:00.028+0800
+2020-01-15 10:50:05.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:05.030+0800
+2020-01-15 10:50:10.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:10.029+0800
+2020-01-15 10:50:15.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:15.028+0800
+2020-01-15 10:50:20.030  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:20.030+0800
+2020-01-15 10:50:25.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:25.029+0800
+2020-01-15 10:50:30.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:30.029+0800
+2020-01-15 10:50:35.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:35.029+0800
+2020-01-15 10:50:40.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:40.028+0800
+2020-01-15 10:50:45.029  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:45.029+0800
+2020-01-15 10:50:50.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:50.028+0800
+2020-01-15 10:50:55.028  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:50:55.028+0800
+2020-01-15 10:50:58.960  INFO 6140 --- [Thread-23] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-15 10:50:58.962  INFO 6140 --- [Thread-23] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 10:50:58.962  INFO 6140 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-15 10:50:59.090  INFO 6140 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-15 10:50:59.444  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 6140 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 10:50:59.445  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 10:50:59.731  WARN 6140 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 10:50:59.776  INFO 6140 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 10:50:59.776  INFO 6140 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 10:50:59.777  INFO 6140 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 10:50:59.797  INFO 6140 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 10:50:59.797  INFO 6140 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 349 ms
+2020-01-15 10:50:59.815  INFO 6140 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-15 10:50:59.819  INFO 6140 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-15 10:50:59.819  INFO 6140 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 10:50:59.960  INFO 6140 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 10:51:00.036  INFO 6140 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 10:51:00.056  INFO 6140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 10:51:00.128  INFO 6140 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 10:51:00.208  INFO 6140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 10:51:00.223  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:51:00.223+0800
+2020-01-15 10:51:00.226  INFO 6140 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 10:51:00.227  INFO 6140 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.825 seconds (JVM running for 381.084)
+2020-01-15 10:51:00.229  INFO 6140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 10:51:05.223  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:51:05.223+0800
+2020-01-15 10:51:10.222  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:51:10.222+0800
+2020-01-15 10:51:15.224  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:51:15.224+0800
+2020-01-15 10:51:20.224  INFO 6140 --- [scheduling-1] l.m.c.s.HotTagTasks                      : The time is now 2020-01-15T10:51:20.224+0800
+2020-01-15 11:10:47.360  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 18956 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 11:10:47.375  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 11:10:47.497  INFO 18956 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 11:10:47.497  INFO 18956 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 11:10:47.498  INFO 18956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 11:10:47.498  INFO 18956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 11:10:49.128  INFO 18956 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 11:10:49.146  INFO 18956 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 11:10:49.147  INFO 18956 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 11:10:49.232  INFO 18956 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 11:10:49.233  INFO 18956 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1735 ms
+2020-01-15 11:10:49.274  INFO 18956 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 11:10:49.513  INFO 18956 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 11:10:49.519  INFO 18956 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 11:10:49.886  INFO 18956 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 11:10:50.013  INFO 18956 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:10:50.074  INFO 18956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 11:10:50.216  INFO 18956 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 11:10:50.370  INFO 18956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 11:10:50.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:10:50.400+0800
+2020-01-15 11:10:50.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:10:50.400+0800
+2020-01-15 11:10:50.423  INFO 18956 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 11:10:50.427  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.705 seconds (JVM running for 5.32)
+2020-01-15 11:10:50.671  INFO 18956 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 11:10:50.671  INFO 18956 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 11:10:50.680  INFO 18956 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2020-01-15 11:11:00.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:00.400+0800
+2020-01-15 11:11:00.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:00.401+0800
+2020-01-15 11:11:10.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:10.401+0800
+2020-01-15 11:11:10.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:10.401+0800
+2020-01-15 11:11:20.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:20.400+0800
+2020-01-15 11:11:20.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:20.400+0800
+2020-01-15 11:11:30.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:30.401+0800
+2020-01-15 11:11:30.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:30.401+0800
+2020-01-15 11:11:40.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:40.401+0800
+2020-01-15 11:11:40.402  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:40.402+0800
+2020-01-15 11:11:50.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:11:50.400+0800
+2020-01-15 11:11:50.400  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:11:50.400+0800
+2020-01-15 11:12:00.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:00.401+0800
+2020-01-15 11:12:00.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:00.401+0800
+2020-01-15 11:12:10.402  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:10.402+0800
+2020-01-15 11:12:10.402  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:10.402+0800
+2020-01-15 11:12:20.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:20.401+0800
+2020-01-15 11:12:20.401  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:20.401+0800
+2020-01-15 11:12:25.090  INFO 18956 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-15 11:12:25.092  INFO 18956 --- [Thread-13] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:12:25.092  INFO 18956 --- [Thread-13] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-15 11:12:25.096  INFO 18956 --- [Thread-13] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-15 11:12:25.537  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 18956 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 11:12:25.538  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 11:12:25.832  WARN 18956 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 11:12:25.872  INFO 18956 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 11:12:25.873  INFO 18956 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 11:12:25.874  INFO 18956 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 11:12:25.893  INFO 18956 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 11:12:25.893  INFO 18956 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 351 ms
+2020-01-15 11:12:25.911  INFO 18956 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-15 11:12:25.915  INFO 18956 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-15 11:12:25.915  INFO 18956 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 11:12:26.045  INFO 18956 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 11:12:26.125  INFO 18956 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:12:26.144  INFO 18956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 11:12:26.192  INFO 18956 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 11:12:26.290  INFO 18956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 11:12:26.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:26.310+0800
+2020-01-15 11:12:26.311  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:26.311+0800
+2020-01-15 11:12:26.313  INFO 18956 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 11:12:26.314  INFO 18956 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.819 seconds (JVM running for 101.207)
+2020-01-15 11:12:26.317  INFO 18956 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 11:12:36.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:36.310+0800
+2020-01-15 11:12:36.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:36.310+0800
+2020-01-15 11:12:46.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:46.310+0800
+2020-01-15 11:12:46.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:46.310+0800
+2020-01-15 11:12:56.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:12:56.312+0800
+2020-01-15 11:12:56.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:12:56.312+0800
+2020-01-15 11:13:06.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:06.310+0800
+2020-01-15 11:13:06.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:06.310+0800
+2020-01-15 11:13:16.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:16.310+0800
+2020-01-15 11:13:16.311  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:16.311+0800
+2020-01-15 11:13:26.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:26.312+0800
+2020-01-15 11:13:26.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:26.312+0800
+2020-01-15 11:13:36.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:36.312+0800
+2020-01-15 11:13:36.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:36.312+0800
+2020-01-15 11:13:42.814  INFO 18956 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 11:13:42.814  INFO 18956 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 11:13:42.820  INFO 18956 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-01-15 11:13:46.310  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:46.310+0800
+2020-01-15 11:13:46.311  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:46.311+0800
+2020-01-15 11:13:56.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:13:56.312+0800
+2020-01-15 11:13:56.312  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:13:56.312+0800
+2020-01-15 11:14:06.311  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:06.311+0800
+2020-01-15 11:14:06.311  INFO 18956 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:06.311+0800
+2020-01-15 11:14:10.916  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 10376 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 11:14:10.925  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 11:14:10.966  INFO 10376 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 11:14:10.966  INFO 10376 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 11:14:10.967  INFO 10376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 11:14:10.967  INFO 10376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 11:14:12.240  INFO 10376 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 11:14:12.251  INFO 10376 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 11:14:12.252  INFO 10376 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 11:14:12.351  INFO 10376 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 11:14:12.351  INFO 10376 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1384 ms
+2020-01-15 11:14:12.393  INFO 10376 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 11:14:12.644  INFO 10376 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 11:14:12.649  INFO 10376 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 11:14:13.118  INFO 10376 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 11:14:13.279  INFO 10376 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:14:13.346  INFO 10376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 11:14:13.534  INFO 10376 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 11:14:13.689  INFO 10376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 11:14:13.752  INFO 10376 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 11:14:13.758  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.332 seconds (JVM running for 4.626)
+2020-01-15 11:14:13.774  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:13.774+0800
+2020-01-15 11:14:13.776  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:13.776+0800
+2020-01-15 11:14:23.725  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:23.725+0800
+2020-01-15 11:14:23.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:23.726+0800
+2020-01-15 11:14:33.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:33.726+0800
+2020-01-15 11:14:33.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:33.726+0800
+2020-01-15 11:14:43.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:43.726+0800
+2020-01-15 11:14:43.728  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:43.726+0800
+2020-01-15 11:14:53.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:14:53.726+0800
+2020-01-15 11:14:53.727  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:14:53.727+0800
+2020-01-15 11:15:03.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:03.726+0800
+2020-01-15 11:15:03.726  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:03.726+0800
+2020-01-15 11:15:08.056  INFO 10376 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-15 11:15:08.057  INFO 10376 --- [Thread-13] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:15:08.058  INFO 10376 --- [Thread-13] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-15 11:15:08.062  INFO 10376 --- [Thread-13] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-15 11:15:08.485  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 10376 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 11:15:08.487  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 11:15:08.776  WARN 10376 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 11:15:08.819  INFO 10376 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 11:15:08.820  INFO 10376 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 11:15:08.820  INFO 10376 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 11:15:08.840  INFO 10376 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 11:15:08.841  INFO 10376 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 351 ms
+2020-01-15 11:15:08.855  INFO 10376 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-15 11:15:08.859  INFO 10376 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-15 11:15:08.859  INFO 10376 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 11:15:08.983  INFO 10376 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 11:15:09.051  INFO 10376 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 11:15:09.073  INFO 10376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 11:15:09.125  INFO 10376 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 11:15:09.203  INFO 10376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 11:15:09.224  INFO 10376 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 11:15:09.224  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:09.220+0800
+2020-01-15 11:15:09.225  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:09.225+0800
+2020-01-15 11:15:09.225  INFO 10376 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.788 seconds (JVM running for 60.094)
+2020-01-15 11:15:09.227  INFO 10376 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 11:15:19.221  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:19.221+0800
+2020-01-15 11:15:19.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:19.222+0800
+2020-01-15 11:15:29.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:29.222+0800
+2020-01-15 11:15:29.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:29.222+0800
+2020-01-15 11:15:39.221  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:39.221+0800
+2020-01-15 11:15:39.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:39.222+0800
+2020-01-15 11:15:49.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:49.222+0800
+2020-01-15 11:15:49.223  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:49.222+0800
+2020-01-15 11:15:59.221  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:15:59.221+0800
+2020-01-15 11:15:59.221  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:15:59.221+0800
+2020-01-15 11:16:09.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:16:09.222+0800
+2020-01-15 11:16:09.222  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:16:09.222+0800
+2020-01-15 11:16:19.220  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T11:16:19.220+0800
+2020-01-15 11:16:19.221  INFO 10376 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T11:16:19.221+0800

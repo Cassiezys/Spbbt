@@ -24,7 +24,7 @@
      cp src/main/resources/application.properties  src/main/resources/application-production.properties
 - vim src/main/resources/application-production.properties 编辑文件
    a 编辑文件 esc  :x 保存修改并退出
-
+java -jar -DSpring.profiles.active=production target/community-0.0.1-SNAPSHOT.jar
 ##资料
 [GitHub 文档](https://github.com/Cassiezys/Spbbt)  
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)  
@@ -42,6 +42,7 @@
 [pagehelper en->zh](https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md)  
 [JQUERY API](https://api.jquery.com/)    
 [markdown github](https://github.com/pandao/editor.md)
+[blog](https://cassiezys.github.io/)
 
 
 ##工具
