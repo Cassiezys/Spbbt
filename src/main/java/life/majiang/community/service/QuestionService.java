@@ -36,7 +36,7 @@ public class QuestionService {
 
 /*返回分页
 *   show segment pages firstPage*/
-    public PaginationDTO allQuestion(Integer page, Integer size,String search) {
+    public PaginationDTO allQuestion(Integer page, Integer size, String search, String tag) {
 
         //如果是搜索的话
         if(!StringUtils.isBlank(search)){
@@ -45,9 +45,10 @@ public class QuestionService {
         }else{
             search=null;
         }
-        System.out.println("我是search"+search);
+    //    System.out.println("我是search"+search);
         QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
         questionQueryDTO.setSearch(search);
+        questionQueryDTO.setTag(tag);
         Integer tatalquescount = (int) questionExtMapper.countBySearch(questionQueryDTO);
 
         PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
