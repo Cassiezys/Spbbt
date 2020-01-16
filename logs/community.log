@@ -12112,3 +12112,522 @@ Action:
 
 Consider defining a bean of type 'life.majiang.community.cache.HotTagCache' in your configuration.
 
+2020-01-15 18:02:33.794  INFO 15736 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 15736 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:02:33.795  INFO 15736 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:02:34.680  WARN 15736 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 18:02:34.725  INFO 15736 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:02:34.726  INFO 15736 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:02:34.726  INFO 15736 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:02:34.817  INFO 15736 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:02:34.818  INFO 15736 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1020 ms
+2020-01-15 18:02:34.833  INFO 15736 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2020-01-15 18:02:34.839  INFO 15736 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2020-01-15 18:02:34.839  INFO 15736 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:02:35.106  INFO 15736 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:02:35.161  INFO 15736 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:02:35.179  INFO 15736 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:02:35.226  INFO 15736 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:02:35.314  INFO 15736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:02:35.328  INFO 15736 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:02:35.328+0800
+2020-01-15 18:02:35.333  INFO 15736 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:02:35.334  INFO 15736 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 1.593 seconds (JVM running for 3106.956)
+2020-01-15 18:02:35.337  INFO 15736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 18:02:35.345  INFO 15736 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:02:35.345+0800
+2020-01-15 18:18:55.005  INFO 1916 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 1916 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:18:55.016  INFO 1916 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:18:55.082  INFO 1916 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:18:55.082  INFO 1916 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:18:55.082  INFO 1916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:18:55.083  INFO 1916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:18:56.860  INFO 1916 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:18:56.896  INFO 1916 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:18:56.897  INFO 1916 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:18:57.089  INFO 1916 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:18:57.089  INFO 1916 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2006 ms
+2020-01-15 18:18:57.183  INFO 1916 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:18:57.521  INFO 1916 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:18:57.526  INFO 1916 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:18:58.134  INFO 1916 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:18:58.327  INFO 1916 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:18:58.393  INFO 1916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:18:58.602  INFO 1916 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:18:58.708  INFO 1916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:18:58.739  INFO 1916 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:18:58.739+0800
+2020-01-15 18:18:58.820  INFO 1916 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:18:58.836  INFO 1916 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 4.91 seconds (JVM running for 7.625)
+2020-01-15 18:18:58.902  INFO 1916 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:18:58.902+0800
+2020-01-15 18:19:00.474  INFO 1916 --- [http-nio-8887-exec-9] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:19:00.474  INFO 1916 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:19:00.482  INFO 1916 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2020-01-15 18:20:18.838  INFO 14496 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 14496 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:20:18.847  INFO 14496 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:20:18.903  INFO 14496 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:20:18.903  INFO 14496 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:20:18.904  INFO 14496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:20:18.904  INFO 14496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:20:20.590  INFO 14496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:20:20.602  INFO 14496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:20:20.603  INFO 14496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:20:20.738  INFO 14496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:20:20.739  INFO 14496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1835 ms
+2020-01-15 18:20:20.788  INFO 14496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:20:21.070  INFO 14496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:20:21.076  INFO 14496 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:20:21.592  INFO 14496 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:20:21.758  INFO 14496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:20:21.836  INFO 14496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:20:21.978  INFO 14496 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:20:22.101  INFO 14496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:20:22.127  INFO 14496 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:20:22.127+0800
+2020-01-15 18:20:22.162  INFO 14496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:20:22.166  INFO 14496 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 4.056 seconds (JVM running for 5.603)
+2020-01-15 18:20:22.215  INFO 14496 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:20:22.215+0800
+2020-01-15 18:20:24.651  INFO 14496 --- [http-nio-8887-exec-7] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:20:24.651  INFO 14496 --- [http-nio-8887-exec-7] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:20:24.662  INFO 14496 --- [http-nio-8887-exec-7] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2020-01-15 18:24:43.761  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 18932 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:24:43.776  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:24:43.833  INFO 18932 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:24:43.833  INFO 18932 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:24:43.834  INFO 18932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:24:43.834  INFO 18932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:24:45.438  INFO 18932 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:24:45.448  INFO 18932 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:24:45.449  INFO 18932 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:24:45.547  INFO 18932 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:24:45.547  INFO 18932 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1713 ms
+2020-01-15 18:24:45.587  INFO 18932 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:24:45.836  INFO 18932 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:24:45.841  INFO 18932 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:24:46.327  INFO 18932 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:24:46.473  INFO 18932 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:24:46.542  INFO 18932 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:24:46.674  INFO 18932 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:24:46.844  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:24:46.888  INFO 18932 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:24:46.888+0800
+2020-01-15 18:24:46.937  INFO 18932 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:24:46.943  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.763 seconds (JVM running for 5.371)
+2020-01-15 18:24:47.026  INFO 18932 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:24:47.026+0800
+2020-01-15 18:25:01.931  INFO 18932 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:25:01.931  INFO 18932 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:25:01.939  INFO 18932 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2020-01-15 18:27:40.423  INFO 18932 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-15 18:27:40.424  INFO 18932 --- [Thread-14] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:27:40.425  INFO 18932 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-15 18:27:40.427  INFO 18932 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-15 18:27:40.859  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 18932 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:27:40.860  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:27:41.168  WARN 18932 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 18:27:41.209  INFO 18932 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:27:41.210  INFO 18932 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:27:41.210  INFO 18932 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:27:41.234  INFO 18932 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:27:41.234  INFO 18932 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 370 ms
+2020-01-15 18:27:41.248  INFO 18932 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-15 18:27:41.252  INFO 18932 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-15 18:27:41.253  INFO 18932 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:27:41.365  INFO 18932 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:27:41.444  INFO 18932 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:27:41.470  INFO 18932 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:27:41.552  INFO 18932 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:27:41.638  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:27:41.690  INFO 18932 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:27:41.690+0800
+2020-01-15 18:27:41.693  INFO 18932 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:27:41.694  INFO 18932 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.878 seconds (JVM running for 180.122)
+2020-01-15 18:27:41.697  INFO 18932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 18:27:41.701  INFO 18932 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:27:41.701+0800
+2020-01-15 18:28:47.966  INFO 8124 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 8124 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:28:47.979  INFO 8124 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:28:48.062  INFO 8124 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:28:48.063  INFO 8124 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:28:48.063  INFO 8124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:28:48.063  INFO 8124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:28:49.744  INFO 8124 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:28:49.766  INFO 8124 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:28:49.768  INFO 8124 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:28:49.935  INFO 8124 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:28:49.935  INFO 8124 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1872 ms
+2020-01-15 18:28:50.000  INFO 8124 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:28:50.327  INFO 8124 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:28:50.333  INFO 8124 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:28:50.728  INFO 8124 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:28:50.859  INFO 8124 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:28:50.924  INFO 8124 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:28:51.156  INFO 8124 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:28:51.314  INFO 8124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:28:51.368  INFO 8124 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:28:51.368+0800
+2020-01-15 18:28:51.401  INFO 8124 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:28:51.410  INFO 8124 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.991 seconds (JVM running for 5.397)
+2020-01-15 18:28:51.466  INFO 8124 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:28:51.466+0800
+2020-01-15 18:28:51.512  INFO 8124 --- [http-nio-8887-exec-10] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:28:51.512  INFO 8124 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:28:51.518  INFO 8124 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-01-15 18:44:28.267  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13328 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:44:28.276  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:44:28.321  INFO 13328 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:44:28.321  INFO 13328 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:44:28.322  INFO 13328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:44:28.322  INFO 13328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:44:29.725  INFO 13328 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:44:29.736  INFO 13328 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:44:29.737  INFO 13328 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:44:29.850  INFO 13328 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:44:29.851  INFO 13328 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1529 ms
+2020-01-15 18:44:29.894  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:44:30.210  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:44:30.216  INFO 13328 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:44:30.803  INFO 13328 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:44:30.940  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:44:31.007  INFO 13328 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:44:31.234  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:44:31.374  INFO 13328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:44:31.409  INFO 13328 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:44:31.409+0800
+2020-01-15 18:44:31.452  INFO 13328 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:44:31.457  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.637 seconds (JVM running for 4.942)
+2020-01-15 18:44:31.513  INFO 13328 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:44:31.513+0800
+2020-01-15 18:44:37.307  INFO 13328 --- [http-nio-8887-exec-10] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:44:37.307  INFO 13328 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:44:37.313  INFO 13328 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-01-15 18:45:19.485  INFO 13328 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-15 18:45:19.486  INFO 13328 --- [Thread-14] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:45:19.487  INFO 13328 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-15 18:45:19.490  INFO 13328 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-15 18:45:19.858  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13328 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:45:19.858  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:45:20.094  WARN 13328 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[life.majiang.community.mapper]' package. Please check your configuration.
+2020-01-15 18:45:20.142  WARN 13328 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 18:45:20.198  INFO 13328 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:45:20.199  INFO 13328 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:45:20.199  INFO 13328 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:45:20.226  INFO 13328 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:45:20.227  INFO 13328 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 365 ms
+2020-01-15 18:45:20.252  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-15 18:45:20.256  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-15 18:45:20.256  INFO 13328 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:45:20.353  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:45:20.383  INFO 13328 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:45:20.449  WARN 13328 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+2020-01-15 18:45:20.449  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:45:20.450  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-01-15 18:45:20.454  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-01-15 18:45:20.454  INFO 13328 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-01-15 18:45:20.463  INFO 13328 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-15 18:45:20.522 ERROR 13328 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at life.majiang.community.CommunityApplication.main(CommunityApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:595) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220$$FastClassBySpringCGLIB$$76870521.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\IdeaProjects\community\target\classes\mapper\CommentExtMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220$$FastClassBySpringCGLIB$$76870521.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:262) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:253) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:245) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220$$FastClassBySpringCGLIB$$76870521.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'life.majiang.community.model.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:262) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:253) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:245) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220$$FastClassBySpringCGLIB$$76870521.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: life.majiang.community.model.Comment
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:262) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:253) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:245) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220$$FastClassBySpringCGLIB$$76870521.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6fb6a220.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.1.jar:2.1.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 more
+
+2020-01-15 18:45:25.946  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13328 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:45:25.947  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:45:26.182  WARN 13328 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-15 18:45:26.220  INFO 13328 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:45:26.221  INFO 13328 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:45:26.221  INFO 13328 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:45:26.235  INFO 13328 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:45:26.235  INFO 13328 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 285 ms
+2020-01-15 18:45:26.250  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2020-01-15 18:45:26.253  INFO 13328 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2020-01-15 18:45:26.253  INFO 13328 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:45:26.380  INFO 13328 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:45:26.436  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:45:26.455  INFO 13328 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:45:26.499  INFO 13328 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:45:26.576  INFO 13328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:45:26.588  INFO 13328 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:45:26.588+0800
+2020-01-15 18:45:26.593  INFO 13328 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:45:26.594  INFO 13328 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.681 seconds (JVM running for 60.078)
+2020-01-15 18:45:26.599  INFO 13328 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:45:26.599+0800
+2020-01-15 18:45:26.602  INFO 13328 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-15 18:45:33.306  INFO 13328 --- [http-nio-8887-exec-9] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:45:33.307  INFO 13328 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:45:33.312  INFO 13328 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-01-15 18:49:31.035  INFO 8308 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 8308 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:49:31.044  INFO 8308 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:49:31.094  INFO 8308 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:49:31.095  INFO 8308 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:49:31.095  INFO 8308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:49:31.096  INFO 8308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:49:32.394  INFO 8308 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:49:32.403  INFO 8308 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:49:32.403  INFO 8308 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:49:32.497  INFO 8308 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:49:32.497  INFO 8308 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1397 ms
+2020-01-15 18:49:32.544  INFO 8308 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:49:32.754  INFO 8308 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:49:32.759  INFO 8308 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:49:33.199  INFO 8308 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:49:33.374  INFO 8308 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:49:33.443  INFO 8308 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:49:33.618  INFO 8308 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:49:33.719  INFO 8308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:49:33.744  INFO 8308 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:49:33.744+0800
+2020-01-15 18:49:33.768  INFO 8308 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:49:33.771  INFO 8308 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.182 seconds (JVM running for 4.662)
+2020-01-15 18:49:33.806  INFO 8308 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:49:33.806+0800
+2020-01-15 18:49:37.086  INFO 8308 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:49:37.087  INFO 8308 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:49:37.097  INFO 8308 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 10 ms
+2020-01-15 18:51:35.416  INFO 10968 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 10968 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:51:35.426  INFO 10968 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:51:35.468  INFO 10968 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:51:35.469  INFO 10968 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:51:35.469  INFO 10968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:51:35.469  INFO 10968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:51:36.828  INFO 10968 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:51:36.839  INFO 10968 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:51:36.840  INFO 10968 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:51:36.944  INFO 10968 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:51:36.944  INFO 10968 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1474 ms
+2020-01-15 18:51:36.989  INFO 10968 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:51:37.249  INFO 10968 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:51:37.255  INFO 10968 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:51:37.753  INFO 10968 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:51:37.900  INFO 10968 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:51:37.963  INFO 10968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:51:38.124  INFO 10968 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:51:38.257  INFO 10968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:51:38.320  INFO 10968 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:51:38.324  INFO 10968 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.369 seconds (JVM running for 4.658)
+2020-01-15 18:51:38.330  INFO 10968 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:51:38.330+0800
+2020-01-15 18:51:38.411  INFO 10968 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:51:38.411+0800
+2020-01-15 18:53:17.691  INFO 2332 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 2332 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:53:17.722  INFO 2332 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:53:17.817  INFO 2332 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:53:17.817  INFO 2332 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:53:17.818  INFO 2332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:53:17.818  INFO 2332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:53:19.303  INFO 2332 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:53:19.314  INFO 2332 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:53:19.315  INFO 2332 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:53:19.421  INFO 2332 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:53:19.421  INFO 2332 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1603 ms
+2020-01-15 18:53:19.465  INFO 2332 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:53:19.704  INFO 2332 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:53:19.709  INFO 2332 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:53:20.070  INFO 2332 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:53:20.196  INFO 2332 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:53:20.255  INFO 2332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:53:20.389  INFO 2332 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:53:20.476  INFO 2332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:53:20.504  INFO 2332 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:53:20.504+0800
+2020-01-15 18:53:20.529  INFO 2332 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:53:20.533  INFO 2332 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 3.322 seconds (JVM running for 5.708)
+2020-01-15 18:53:20.570  INFO 2332 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:53:20.570+0800
+2020-01-15 18:53:37.554  INFO 2332 --- [http-nio-8887-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:53:37.554  INFO 2332 --- [http-nio-8887-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:53:37.562  INFO 2332 --- [http-nio-8887-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2020-01-15 18:54:19.185  INFO 16620 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 16620 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-15 18:54:19.199  INFO 16620 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-15 18:54:19.423  INFO 16620 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-15 18:54:19.423  INFO 16620 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-15 18:54:19.424  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 18:54:19.424  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 18:54:21.707  INFO 16620 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-15 18:54:21.723  INFO 16620 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-15 18:54:21.724  INFO 16620 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-15 18:54:21.876  INFO 16620 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-15 18:54:21.876  INFO 16620 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2451 ms
+2020-01-15 18:54:22.063  INFO 16620 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-15 18:54:22.502  INFO 16620 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-15 18:54:22.508  INFO 16620 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-15 18:54:22.938  INFO 16620 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-15 18:54:23.201  INFO 16620 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 18:54:23.330  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-15 18:54:23.591  INFO 16620 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-15 18:54:23.758  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-15 18:54:23.806  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-15T18:54:23.806+0800
+2020-01-15 18:54:23.863  INFO 16620 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-15 18:54:23.876  INFO 16620 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 5.19 seconds (JVM running for 7.116)
+2020-01-15 18:54:23.935  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-15T18:54:23.935+0800
+2020-01-15 18:54:24.056  INFO 16620 --- [http-nio-8887-exec-9] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 18:54:24.057  INFO 16620 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-15 18:54:24.071  INFO 16620 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Completed initialization in 14 ms
+2020-01-15 19:51:30.274  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m7s595ms754µs667ns).
+2020-01-15 20:51:33.799  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m1s369ms547µs555ns).
+2020-01-15 21:57:32.890  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m59s12ms523µs555ns).
+2020-01-15 22:58:33.019  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m54ms447µs111ns).
+2020-01-15 23:55:45.287  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m12s262ms484µs889ns).
+2020-01-16 00:52:44.071  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m28s790ms573µs334ns).
+2020-01-16 01:49:29.595  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m15s458ms304µs444ns).
+2020-01-16 02:09:01.622  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-16T02:09:01.622+0800
+2020-01-16 02:09:01.635  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-16T02:09:01.635+0800
+2020-01-16 02:09:01.635  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-16T02:09:01.635+0800
+2020-01-16 02:09:01.638  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-16T02:09:01.638+0800
+2020-01-16 02:57:29.679  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m22ms407µs111ns).
+2020-01-16 03:52:29.802  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m46ms571µs555ns).
+2020-01-16 04:57:32.385  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m59s997ms793µs778ns).
+2020-01-16 05:48:32.414  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m29s956ms458µs667ns).
+2020-01-16 05:49:53.726  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-16T05:49:53.726+0800
+2020-01-16 05:49:53.733  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-16T05:49:53.733+0800
+2020-01-16 06:58:33.565  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m1s78ms908µs445ns).
+2020-01-16 09:33:31.537  WARN 16620 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h4m57s903ms171µs111ns).
+2020-01-16 09:38:22.666  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-16T09:38:22.666+0800
+2020-01-16 09:38:22.675  INFO 16620 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-16T09:38:22.675+0800
+2020-01-16 09:54:01.611  INFO 5972 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 5972 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-16 09:54:01.622  INFO 5972 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-16 09:54:01.673  INFO 5972 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-16 09:54:01.673  INFO 5972 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-16 09:54:01.673  INFO 5972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-16 09:54:01.673  INFO 5972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-16 09:54:03.770  INFO 5972 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-16 09:54:03.782  INFO 5972 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-16 09:54:03.783  INFO 5972 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 09:54:03.881  INFO 5972 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-16 09:54:03.882  INFO 5972 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2208 ms
+2020-01-16 09:54:03.923  INFO 5972 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-16 09:54:04.327  INFO 5972 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-16 09:54:04.334  INFO 5972 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-16 09:54:04.765  INFO 5972 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-16 09:54:04.898  INFO 5972 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 09:54:04.968  INFO 5972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-16 09:54:05.139  INFO 5972 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-16 09:54:05.241  INFO 5972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 09:54:05.267  INFO 5972 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-16T09:54:05.267+0800
+2020-01-16 09:54:05.292  INFO 5972 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-16 09:54:05.295  INFO 5972 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 4.146 seconds (JVM running for 5.773)
+2020-01-16 09:54:05.337  INFO 5972 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-16T09:54:05.337+0800
+2020-01-16 09:54:16.510  INFO 5972 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-16 09:54:16.511  INFO 5972 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-16 09:54:16.518  INFO 5972 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms

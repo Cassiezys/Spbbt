@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> 视频教程 </title>
+    <head th:insert="~{head ::importhead}"></head>
+    <head th:insert="~{head ::importmarkdown}"></head>
+
+</head>
+<body>
+<div th:insert="~{head :: head}"></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 video">
+            <a href="/video/83217401" ><img src="/images/python.png" alt=""></a>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 video">
+            <a href="/video/25582665"><img src="/images/com-struct.png" alt=""></a>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 video">
+            <a href="/video/av50200264"><img src="/images/ai.png" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<div th:insert="~{head :: foot}"></div>
+</body>
+</html>

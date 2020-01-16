@@ -124,3 +124,11 @@ body
     color: #666;
     height: 39px;
 }
+.video
+{
+    padding:30px;
+}
+.video img
+{
+    width: 100%;
+}
