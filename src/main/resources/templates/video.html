@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>视频详情</title>
-    <head th:insert="~{head ::importhead}"></head>
+    <head th:insert="~{importhead ::importhead}"></head>
 </head>
 <script type="application/javascript">
     window.onload = function () {
@@ -18,26 +18,54 @@
 
 <div class="container-fluid main">
     <div class="row">
-        <!--目录 提纲 aid=83217401&page=1-->
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <h4>视频选集</h4>
-            <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 question-rela">
-                <li>
-                    <a href="@{/video(page=1,aid=${aid})}">开篇介绍</a>
-                </li>
-                <li>
-                    <a href="@{/video(page=2,aid=${aid})}">快速搭建springboot项目</a>
-                </li>
-            </ul>
-        </div>
         <!--视频模块-->
-        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:30px;">
-                <iframe th:src="@{//player.bilibili.com/player.html(aid=${aid},page=${page})}" scrolling="no"
-                        border="0" frameborder="no" framespacing="0" allowfullscreen="true"
-                        style="width: 100%;min-height: 500px;"></iframe>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:30px;">
+                    <iframe th:src="@{//player.bilibili.com/player.html(aid=${aid},page=${page})}" scrolling="no"
+                            border="0" frameborder="no" framespacing="0" allowfullscreen="true"
+                            style="width: 100%;min-height: 500px;"></iframe>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- 目录选集 -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            视频选集 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a th:href="@{/video(page=1,aid=${aid})}">P1 开篇介绍</a></li>
+                            <li><a th:href="@{/video(page=2,aid=${aid})}">P2 快速搭建springboot项目</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+            <!--右侧 -->
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 note">
+                <h4>视频笔记</h4>
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+                这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记这里是笔记笔记
+
+            </div>
+        </div>
+        <!--视频留言-->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+            <h4>评论区</h4>
+            这里快来评论
         </div>
     </div>
 </div>
