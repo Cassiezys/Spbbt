@@ -13441,3 +13441,199 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{he
 2020-01-17 09:12:33.628  INFO 7416 --- [http-nio-8887-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-01-17 09:12:33.628  INFO 7416 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2020-01-17 09:12:33.638  INFO 7416 --- [http-nio-8887-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 10 ms
+2020-01-17 09:18:14.984  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13228 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 09:18:15.085  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-17 09:18:15.316  INFO 13228 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-01-17 09:18:15.317  INFO 13228 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-17 09:18:15.318  INFO 13228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-17 09:18:15.318  INFO 13228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-17 09:18:17.434  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-17 09:18:17.456  INFO 13228 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-17 09:18:17.457  INFO 13228 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-17 09:18:17.570  INFO 13228 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-17 09:18:17.571  INFO 13228 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2253 ms
+2020-01-17 09:18:17.626  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-17 09:18:17.962  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-17 09:18:17.969  INFO 13228 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-17 09:18:18.650  INFO 13228 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 09:18:18.816  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:18:18.899  INFO 13228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 09:18:19.105  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 09:18:19.224  INFO 13228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-17 09:18:19.266  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T09:18:19.266+0800
+2020-01-17 09:18:19.293  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-17 09:18:19.297  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 4.952 seconds (JVM running for 6.696)
+2020-01-17 09:18:19.342  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T09:18:19.342+0800
+2020-01-17 09:18:20.067  INFO 13228 --- [http-nio-8887-exec-10] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-17 09:18:20.070  INFO 13228 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-17 09:18:20.077  INFO 13228 --- [http-nio-8887-exec-10] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2020-01-17 09:26:24.245  INFO 13228 --- [Thread-16] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 09:26:24.246  INFO 13228 --- [Thread-16] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:24.247  INFO 13228 --- [Thread-16] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-17 09:26:24.254  INFO 13228 --- [Thread-16] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-17 09:26:25.043  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13228 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 09:26:25.044  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-17 09:26:25.531  WARN 13228 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-17 09:26:25.819  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-17 09:26:25.821  INFO 13228 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-17 09:26:25.821  INFO 13228 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-17 09:26:25.976  INFO 13228 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-17 09:26:25.977  INFO 13228 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 928 ms
+2020-01-17 09:26:26.004  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-01-17 09:26:26.011  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-01-17 09:26:26.011  INFO 13228 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-17 09:26:26.610  INFO 13228 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 09:26:26.766  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:26.786  INFO 13228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 09:26:26.832  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 09:26:26.928  INFO 13228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-17 09:26:26.941  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T09:26:26.941+0800
+2020-01-17 09:26:26.945  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-17 09:26:26.946  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 1.944 seconds (JVM running for 494.345)
+2020-01-17 09:26:26.949  INFO 13228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-17 09:26:26.954  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T09:26:26.954+0800
+2020-01-17 09:26:29.676  INFO 13228 --- [Thread-23] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 09:26:29.677  INFO 13228 --- [Thread-23] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:29.677  INFO 13228 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-01-17 09:26:29.682  INFO 13228 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-01-17 09:26:30.416  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13228 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 09:26:30.421  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-17 09:26:30.867  WARN 13228 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-17 09:26:30.912  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-17 09:26:30.913  INFO 13228 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-17 09:26:30.913  INFO 13228 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-17 09:26:30.930  INFO 13228 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-17 09:26:30.930  INFO 13228 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 503 ms
+2020-01-17 09:26:30.952  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2020-01-17 09:26:30.956  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2020-01-17 09:26:30.956  INFO 13228 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-17 09:26:31.340  INFO 13228 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 09:26:31.496  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:31.521  INFO 13228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 09:26:31.581  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 09:26:31.687  INFO 13228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-17 09:26:31.705  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T09:26:31.705+0800
+2020-01-17 09:26:31.713  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-17 09:26:31.713  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 1.44 seconds (JVM running for 499.112)
+2020-01-17 09:26:31.718  INFO 13228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-17 09:26:31.722  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T09:26:31.722+0800
+2020-01-17 09:26:41.879  INFO 13228 --- [Thread-28] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 09:26:41.880  INFO 13228 --- [Thread-28] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:41.881  INFO 13228 --- [Thread-28] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2020-01-17 09:26:41.887  INFO 13228 --- [Thread-28] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2020-01-17 09:26:42.275  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 13228 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 09:26:42.276  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-01-17 09:26:42.566  WARN 13228 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-01-17 09:26:42.615  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-01-17 09:26:42.616  INFO 13228 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-17 09:26:42.616  INFO 13228 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-17 09:26:42.631  INFO 13228 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-17 09:26:42.631  INFO 13228 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 353 ms
+2020-01-17 09:26:42.646  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2020-01-17 09:26:42.650  INFO 13228 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2020-01-17 09:26:42.650  INFO 13228 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-01-17 09:26:42.738  INFO 13228 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 09:26:42.795  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 09:26:42.810  INFO 13228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 09:26:42.880  INFO 13228 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 09:26:42.974  INFO 13228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-17 09:26:43.007  INFO 13228 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-01-17 09:26:43.008  INFO 13228 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 0.774 seconds (JVM running for 510.407)
+2020-01-17 09:26:43.010  INFO 13228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-17 09:26:43.018  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T09:26:43.018+0800
+2020-01-17 09:26:43.028  INFO 13228 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T09:26:43.028+0800
+2020-01-17 09:47:14.339  INFO 13228 --- [http-nio-8887-exec-9] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-17 09:47:14.339  INFO 13228 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-01-17 09:47:14.343  INFO 13228 --- [http-nio-8887-exec-9] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2020-01-17 16:12:22.628  WARN 16128 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/MavenHome/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/MavenHome/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-01-17 16:12:22.689  WARN 11340 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/MavenHome/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/MavenHome/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-01-17 16:12:22.985  INFO 16128 --- [main] l.m.c.CommunityApplicationTests          : Starting CommunityApplicationTests on DESKTOP-K4AQCMF with PID 16128 (started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 16:12:22.987  INFO 11340 --- [main] l.m.c.CommunityApplicationTests          : Starting CommunityApplicationTests on DESKTOP-K4AQCMF with PID 11340 (started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 16:12:23.023  INFO 11340 --- [main] l.m.c.CommunityApplicationTests          : No active profile set, falling back to default profiles: default
+2020-01-17 16:12:23.025  INFO 16128 --- [main] l.m.c.CommunityApplicationTests          : No active profile set, falling back to default profiles: default
+2020-01-17 16:12:28.749  INFO 11340 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 16:12:28.749  INFO 16128 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 16:12:30.766  INFO 16128 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 16:12:30.799  INFO 11340 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 16:12:31.694  INFO 16128 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 16:12:32.049  INFO 11340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 16:12:34.211  INFO 16128 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 16:12:34.246  INFO 11340 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 16:12:34.448  INFO 16128 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T16:12:34.444+0800
+2020-01-17 16:12:34.453  INFO 16128 --- [main] l.m.c.CommunityApplicationTests          : Started CommunityApplicationTests in 13.602 seconds (JVM running for 17.515)
+2020-01-17 16:12:34.552  INFO 11340 --- [main] l.m.c.CommunityApplicationTests          : Started CommunityApplicationTests in 13.7 seconds (JVM running for 18.088)
+2020-01-17 16:12:34.546  INFO 11340 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T16:12:34.542+0800
+2020-01-17 16:12:34.682  INFO 16128 --- [scheduling-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-17 16:12:34.685  INFO 11340 --- [scheduling-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-17 16:12:35.615  INFO 16128 --- [scheduling-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-17 16:12:35.697  INFO 11340 --- [scheduling-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-01-17 16:12:35.710  INFO 16128 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T16:12:35.710+0800
+2020-01-17 16:12:35.761  INFO 11340 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-01-17T16:12:35.761+0800
+2020-01-17 16:12:36.045  INFO 11340 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 16:12:36.044  INFO 16128 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 16:12:36.046  INFO 11340 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-17 16:12:36.049  INFO 11340 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-17 16:12:36.049  INFO 16128 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-17 16:12:36.052  INFO 16128 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-01-17 16:12:36.119  INFO 16128 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-17 16:12:36.124  INFO 11340 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-01-17 16:13:28.132  WARN 7728 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/MavenHome/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/MavenHome/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-01-17 16:13:28.159  INFO 7728 --- [main] l.m.c.CommunityApplicationTests          : Starting CommunityApplicationTests on DESKTOP-K4AQCMF with PID 7728 (started by Lenovo in D:\IdeaProjects\community)
+2020-01-17 16:13:28.165  INFO 7728 --- [main] l.m.c.CommunityApplicationTests          : No active profile set, falling back to default profiles: default
+2020-01-17 16:13:30.393  INFO 7728 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-01-17 16:13:30.851  INFO 7728 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-17 16:13:30.967  INFO 7728 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-17 16:13:31.366  INFO 7728 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-17 16:13:31.452  INFO 7728 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-01-17T16:13:31.450+0800
+2020-01-17 16:13:31.457  INFO 7728 --- [main] l.m.c.CommunityApplicationTests          : Started CommunityApplicationTests in 3.755 seconds (JVM running for 5.668)
+2020-01-17 16:13:31.526  INFO 7728 --- [scheduling-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-01-17 16:13:31.807  INFO 7728 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-17 16:13:31.809  INFO 7728 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-09 11:02:35.567  INFO 8400 --- [restartedMain] l.m.c.CommunityApplication               : Starting CommunityApplication on DESKTOP-K4AQCMF with PID 8400 (D:\IdeaProjects\community\target\classes started by Lenovo in D:\IdeaProjects\community)
+2020-02-09 11:02:35.627  INFO 8400 --- [restartedMain] l.m.c.CommunityApplication               : No active profile set, falling back to default profiles: default
+2020-02-09 11:02:35.868  INFO 8400 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-02-09 11:02:35.868  INFO 8400 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in E:\MavenHome\repository\com\sun\xml\bind\jaxb-impl\2.3.2\jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/E:/MavenHome/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-09 11:02:35.869  INFO 8400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-09 11:02:35.869  INFO 8400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-09 11:02:40.449  INFO 8400 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8887 (http)
+2020-02-09 11:02:40.475  INFO 8400 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-02-09 11:02:40.476  INFO 8400 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-09 11:02:40.605  INFO 8400 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-09 11:02:40.605  INFO 8400 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4736 ms
+2020-02-09 11:02:40.792  INFO 8400 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-02-09 11:02:41.108  INFO 8400 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-02-09 11:02:41.114  INFO 8400 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/community?useUnicode=true&characterEncoding=utf-8'
+2020-02-09 11:02:41.835  INFO 8400 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String life.majiang.community.provider.AliyunProvider.accessKeySecret
+2020-02-09 11:02:42.091  INFO 8400 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-09 11:02:42.226  INFO 8400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-09 11:02:42.511  INFO 8400 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-02-09 11:02:42.895  INFO 8400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-09 11:02:42.943  INFO 8400 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule start 2020-02-09T11:02:42.943+0800
+2020-02-09 11:02:42.985  INFO 8400 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-09 11:02:42.989  INFO 8400 --- [restartedMain] l.m.c.CommunityApplication               : Started CommunityApplication in 9.283 seconds (JVM running for 14.096)
+2020-02-09 11:02:43.076  INFO 8400 --- [scheduling-1] l.m.c.s.HotTagTasks                      : hotTagSchedule stop 2020-02-09T11:02:43.076+0800
+2020-02-09 11:47:11.054  WARN 8400 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s758ms571µs218ns).
